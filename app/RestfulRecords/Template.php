@@ -15,7 +15,7 @@ class Template
 
     public function getTemplatePath(): string
     {
-        return '/templates/'.$this->name;
+        return '/menu-templates/templates/'.$this->name;
     }
 
     public function getTemplateCss()
