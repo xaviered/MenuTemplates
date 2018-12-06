@@ -8,9 +8,9 @@
     <title>{{ $template->name }}</title>
 
 <!-- Bootstrap Core JS -->
-    <script type="text/javascript" src="{!! asset( '/ixavier-libraries/js/jquery/jquery.min.js', true ) !!}"></script>
-    <link href="{!! asset( '/menu-templates/css/base-template.css', true ) !!}" media="all" rel="stylesheet" type="text/css"/>
-    <link href="{!! asset( $template->getTemplateCss(), true ) !!}" media="all" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="'/ixavier-libraries/js/jquery/jquery.min.js'"></script>
+    <link href="/menu-templates/css/base-template.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="{!! $template->getTemplateCss() !!}" media="all" rel="stylesheet" type="text/css"/>
 
 </head>
 <body class="background-{{ $backgroundType }}">
