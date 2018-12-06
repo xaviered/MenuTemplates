@@ -11,7 +11,7 @@
 |
 */
 
-use ixavier\Libraries\Server\Core\RestfulRecord;
+use \ixavier\Libraries\Server\Core\RestfulRecord;
 
 Route::get('/', function () {
     return view('welcome');
