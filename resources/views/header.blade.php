@@ -8,8 +8,8 @@
     <title>{{ $template->name }}</title>
 
 <!-- Bootstrap Core JS -->
-    <script type="text/javascript" src="{!! asset( 'ixavier-libraries/js/jquery/jquery.min.js', true ) !!}"></script>
-    <link href="{!! asset( 'css/base-template.css', true ) !!}" media="all" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="{!! asset( '/ixavier-libraries/js/jquery/jquery.min.js', true ) !!}"></script>
+    <link href="{!! asset( '/css/base-template.css', true ) !!}" media="all" rel="stylesheet" type="text/css"/>
     <link href="{!! asset( $template->getTemplateCss(), true ) !!}" media="all" rel="stylesheet" type="text/css"/>
 
 </head>
