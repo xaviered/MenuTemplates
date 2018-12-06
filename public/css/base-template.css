@@ -69,7 +69,7 @@ div.menu table tr.product td.details {
 }
 div.menu table tr.product td.details table td.line {
     width: 100%;
-    background-image: url("/images/dots-gray.png");
+    background-image: url("/menu-templates/images/dots-gray.png");
     background-repeat: repeat-x;
     background-position-y: bottom;
 }
